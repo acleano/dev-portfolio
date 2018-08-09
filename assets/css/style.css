@@ -1,21 +1,24 @@
 h1 {
-	font-size: 60px;
+	font-size: 50px;
 	margin-bottom: 0px;
 	background-color:  #808000;
 	text-transform: uppercase;
-	letter-spacing: 9px;
-	font-family: 'Kirang Haerang', cursive;
+	letter-spacing: 18px;
+	font-family: 'MedievalSharp', cursive;
 	color: white;
+	border-width: 5px;
+	border-radius: 15%;
+	border-style: outset;
 
-}
+}	
 
 h2 {
 	text-transform: uppercase;
 	letter-spacing: 5px;
-	color: #1a001a;
-	font-size: 20px;
+	color: #808000;
 	margin-top: 15px;
 	margin-bottom: 60px;
+	text-shadow: 3px 3px darkgrey;
 
 }
 
@@ -23,7 +26,7 @@ h2 {
 	height: 200px;
 	width: 200px;
 	border-radius: 50%;
-	border-style: solid;
+	border-style: dotted;
 	border-width: 5px;
 	border-color: #808000;
 	margin-top: 100px;
@@ -34,7 +37,7 @@ body {
 	background-repeat: no-repeat;
 	background-size: cover;
 	color: #fff;
-    font-family: 'Shadows Into Light', cursive;
+    font-family: 'MedievalSharp', cursive;
     /*background-image: url(../images/pattern.png);*/
     /*background-color:  #ffffe6;*/
 
@@ -42,18 +45,17 @@ body {
 
 .about {
 	width: 100%;
-	font-size: 18px;
+	font-size: 12px;
 	line-height: 1.5;
-	background-color: rgba(51,51,51,0.50);	
-    font-family: 'Amatic SC', cursive;
-    font-size: 30px;
-    letter-spacing: 2px;
-    word-spacing: 3px;
+	background-color: rgba(51,51,51,0.70);	
+    font-size: 24px;
+    letter-spacing: 2.5px;
+    word-spacing: 4px;
 
 }
 
 .container {
-	width: 500px;
+	width: 500px;	
 	margin: 0 auto;
 	text-align: center;
 }
